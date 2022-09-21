@@ -20,8 +20,8 @@ public class Rectangle {
     }
 
     public void printAreaTenTimes(){
+        int _area = m_length * m_width;
         for (int i = 0; i < 10; i++){
-            int _area = m_length * m_width;
             System.out.println(_area);
         }
     }
