@@ -23,6 +23,8 @@ public class IOTestOut {
         //Do required stuff
         System.out.println("The area is: ");
         m_rectangle.printArea();
+        System.out.println("Print area ten times: ");
+        m_rectangle.printAreaTenTimes();
         if (m_rectangle.IsSquare()){
             System.out.println("It is a square!");
         } else {

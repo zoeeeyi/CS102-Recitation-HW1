@@ -20,8 +20,10 @@ public class Rectangle {
     }
 
     public void printAreaTenTimes(){
-        int _areaTenTimes = m_length * m_width * 10;
-        System.out.println(_areaTenTimes);
+        for (int i = 0; i < 10; i++){
+            int _area = m_length * m_width;
+            System.out.println(_area);
+        }
     }
 
     public boolean IsSquare(){
